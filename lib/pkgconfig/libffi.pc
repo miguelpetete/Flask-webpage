@@ -1,0 +1,11 @@
+prefix=/Users/miguel_petete/opt/anaconda3/envs/test_flask
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/miguel_petete/opt/anaconda3/envs/test_flask/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.3
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

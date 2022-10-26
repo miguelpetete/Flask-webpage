@@ -1,0 +1,13 @@
+prefix=/Users/miguel_petete/opt/anaconda3/envs/test_flask
+exec_prefix=/Users/miguel_petete/opt/anaconda3/envs/test_flask
+libdir=/Users/miguel_petete/opt/anaconda3/envs/test_flask/lib
+sharedlibdir=/Users/miguel_petete/opt/anaconda3/envs/test_flask/lib
+includedir=/Users/miguel_petete/opt/anaconda3/envs/test_flask/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
