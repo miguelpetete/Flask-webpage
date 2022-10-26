@@ -8,7 +8,7 @@ def index():
 
 @app.route("/studies")
 def studies():
-    return render_template('studies.html')
+    return render_template('index.html')
 
 @app.route("/skills")
 def skills():
